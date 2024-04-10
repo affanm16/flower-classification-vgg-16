@@ -34,6 +34,8 @@ def predict_class(image):
 # Streamlit app
 st.title("Flower Classification Using DEEP LEARNING")
 
+st.write("The model has been trained on a variety of flower types, including Tulip, Rose, Sunflower, Dandelion, and Daisy.")
+st.write("For optimal performance, please provide images of these flowers.")
 
 
 flower_names = {
