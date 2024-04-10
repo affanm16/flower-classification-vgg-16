@@ -53,7 +53,7 @@ if uploaded_file is not None:
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
     image = cv2.imdecode(file_bytes, 1)
     # Display image
-    st.image(image, caption='Uploaded Flower Image', width=700)
+    st.image(image, caption='Uploaded Flower Image', width=700, height=300)
     st.write("")
     # Check if predict button is clicked
     if st.button('Predict'):
