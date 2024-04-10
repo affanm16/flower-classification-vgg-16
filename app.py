@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.applications.vgg16 import preprocess_input
 
 # Load the saved model
-model = load_model("D:/flower-detection-Deep-Learning-Project/flower_classification_model.h5")
+model = load_model("flower_classification_model.h5")
 
 # Define image preprocessing function
 def preprocess_image(image):
